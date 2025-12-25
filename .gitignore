@@ -1,12 +1,17 @@
 Packages
 .build
-xcuserdata
+.index-build
+.DS_Store
 *.xcodeproj
 DerivedData/
-.DS_Store
-db.sqlite
+Package.resolved
 .swiftpm
-.env
-.env.*
-!.env.example
-default.profraw
+Tests/LinuxMain.swift
+.vscode
+.bash_history
+.cache/
+
+# API Docs Generation
+generate-package-api-docs.swift
+public/
+theme-settings.json
